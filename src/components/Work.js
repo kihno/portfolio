@@ -1,62 +1,74 @@
 import React from "react";
 import Project from "./Project";
+import uniqid from 'uniqid';
 
 const Work = () => {
     const projects = [
         {
-            name: "Todo App",
-            description: "",
+            name: "Taskmaster",
+            description: "A todo app built with ES6 modules and weback.",
             image: "",
+            id: uniqid()
         },
         {
             name: "Where's Waldo?",
             description: "",
             image: "",
+            id: uniqid()
         },
         {
             name: "Shopping Cart",
             description: "",
             image: "",
+            id: uniqid()
         },
         {
             name: "Battleship",
             description: "",
             image: "",
+            id: uniqid()
         },
         {
             name: "Library App",
             description: "",
             image: "",
+            id: uniqid()
         },
         {
             name: "Weather App",
             description: "",
             image: "",
+            id: uniqid()
         },
         {
             name: "Calculator",
             description: "",
             image: "",
+            id: uniqid()
         },
         {
             name: "Rock, Paper, Scissors",
             description: "",
             image: "",
+            id: uniqid()
         },
         {
             name: "Memory Game",
             description: "",
             image: "",
+            id: uniqid()
         },
         {
             name: "Etch-a-Sketch",
             description: "",
             image: "",
+            id: uniqid()
         },
         {
             name: "Tic Tac Toe",
             description: "",
             image: "",
+            id: uniqid()
         },
     ]
 
@@ -72,9 +84,11 @@ const Work = () => {
                 <i class="devicon-firebase-plain"></i>
                 <i class="devicon-nodejs-plain"></i>
             </div>
-            {projects.map(proj => {
-                return <Project name={proj.name} description={proj.description} image={proj.image} />
-            })}
+            <div className="projects">
+                {projects.map(proj => {
+                    return <Project name={proj.name} description={proj.description} image={proj.image} id={proj.id} />
+                })}
+            </div>
         </div>
     )
 }

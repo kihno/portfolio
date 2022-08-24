@@ -1,4 +1,5 @@
 import React from "react";
+import webdev from '../images/webdev.jpg';
 
 const Footer = () => {
 
@@ -15,7 +16,7 @@ const Footer = () => {
                     <a href="https://linkedin.com/in/nicholas-miles-93328227/"><i class="devicon-linkedin-plain"></i></a>
                 </div> 
             </div>
-            <img></img>
+            <img className="footerImage" src={webdev} alt=""></img>
         </div>
     )
 }
