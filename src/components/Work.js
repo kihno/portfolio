@@ -47,7 +47,7 @@ const Work = () => {
             id: uniqid()
         },
         {
-            name: "Rock, Paper, Scissors",
+            name: "Roshambo",
             description: "",
             image: "",
             id: uniqid()

@@ -10,6 +10,7 @@ function App() {
       <Header />
       <Work />
       <Footer />
+      <div className="background"></div>
     </div>
   );
 }
