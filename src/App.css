@@ -59,6 +59,7 @@ h2 {
 .aboutContainer {
   background-color: #f6f7f8;
   padding: 20px;
+  max-width: 350px;
 }
 
 .aboutContainer>h2 {
@@ -83,8 +84,8 @@ a {
 
 .background {
   width: 100%;
-  height: 50%;
-  top: 0;
+  height: 60%;
+  bottom: 40%;
   left: 0;
   z-index: -1;
   position: absolute;
@@ -289,7 +290,73 @@ a {
 }
 
 @media (min-width: 1000px) {
+  .background {
+    height: 80%;
+    top: auto;
+    bottom: 25%;
+  }
+
+  .headerSection {
+    max-width: 1000px;
+    margin: 0;
+    display: grid;
+    grid: 1fr/ 1fr 2fr;
+  }
+
+  .headContainer {
+    max-width: 400px;
+    float: none;
+    margin: 0;
+  }
+
+  .headshot {
+    display: block;
+    width: auto;
+    height: 100%;
+  }
+
+  .name {
+    width: 2.5em;
+    top: auto;
+    margin: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-100%, 0);
+  }
+
+  .aboutContainer {
+    margin: 50px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+
+  #work {
+    padding: 0;
+  }
+
+  .aboutIcons {
+    display: inline;
+    align-self: flex-end;
+  }
+
   .projects {
+    max-width: 1400px;
     grid: 1fr 1fr / 1fr 1fr 1fr;
+  }
+
+  .project {
+    max-width: 600px;
+  }
+
+  .contact {
+    font-size: 1.2em;
+  }
+
+  .footerImage {
+    justify-self: start;
+    width: 80%;
+    height: auto;
+    margin: 40px;
   }
 }
