@@ -96,6 +96,9 @@ a {
 #work {
   width: 100%;
   margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #work>h2 {
@@ -110,20 +113,33 @@ a {
 }
 
 .projects {
+  max-width: 500px;
   display: grid;
+  grid: 1fr / 1fr;
+  justify-items: center;
   padding: 20px;
   gap: 40px;
+  margin: auto;
 }
 
 .project {
-  padding: 20px;
+  max-width: 340px;
   box-shadow: 2px 2px 9px rgba(0,0,0,0.2);
+}
+
+.projectImage {
+ width: 100%;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .projectInfo {
   display: grid;
   grid: 1fr 2fr / 1fr 1fr;
   align-items: center;
+  padding: 20px;
 }
 
 .projectInfo>h3 {
@@ -189,7 +205,6 @@ a {
   }
 
   #header {
-    max-width: 870px;
     padding: 10px 20px 10px 20px;
     display: flex;
     justify-content: center;
@@ -197,7 +212,7 @@ a {
   }
 
   .headerSection {
-    max-width: 780px;
+    max-width: 770px;
     margin: 30px 40px 10px 0;
     padding: 20px;
     display: inline;
@@ -242,7 +257,12 @@ a {
   }
 
   .projects {
+    max-width: 900px;
     grid: 1fr 1fr / 1fr 1fr;
+  }
+
+  .project {
+    max-width: 400px;
   }
 
   #footer {
@@ -269,5 +289,7 @@ a {
 }
 
 @media (min-width: 1000px) {
-  
+  .projects {
+    grid: 1fr 1fr / 1fr 1fr 1fr;
+  }
 }

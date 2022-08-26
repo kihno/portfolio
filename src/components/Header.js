@@ -18,8 +18,8 @@ const Header = () => {
                         <p>When I'm not coding I'm either gaming, watching LA sports, or kayaking with my dog.</p>
                     </div>
                     <div className="iconContainer aboutIcons">
-                        <a href="https://github.com/kihno"><i class="devicon-github-original"></i></a>
-                        <a href="https://linkedin.com/in/nicholas-miles-93328227/"><i class="devicon-linkedin-plain"></i></a>
+                        <a href="https://github.com/kihno"><i className="devicon-github-original"></i></a>
+                        <a href="https://linkedin.com/in/nicholas-miles-93328227/"><i className="devicon-linkedin-plain"></i></a>
                     </div>         
                 </div>
             </div>

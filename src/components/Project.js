@@ -3,16 +3,16 @@ import Icon from '@mdi/react'
 import { mdiOpenInNew } from '@mdi/js';
 
 const Project = (props) => {
-    const { name, description, image, id } = props;
+    const { name, description, image, repo, link } = props;
 
     return(
-        <div className="project" key={id}>
+        <div className="project">
             <img className="projectImage" src={image} alt=""></img>
             <div className="projectInfo">
                 <h3>{name}</h3>
                 <div className="projectIcons">
-                    <i class="devicon-github-original"></i>
-                    <Icon path={mdiOpenInNew} size={1} />
+                    <a href={repo}><i className="devicon-github-original"></i></a>
+                    <a href={link}><Icon path={mdiOpenInNew} size={1} /></a>
                 </div>
                 <p className="projectDescription">{description}</p>
             </div>
