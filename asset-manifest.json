@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.219ce303.css",
+    "main.js": "/portfolio/static/js/main.868941e9.js",
+    "static/media/webdev.jpg": "/portfolio/static/media/webdev.f0dc87ff1f58bda9abef.jpg",
+    "static/media/waldo.jpg": "/portfolio/static/media/waldo.2ae0cc4865d6463485a6.jpg",
+    "static/media/calculator.jpg": "/portfolio/static/media/calculator.8d7945da74c2668ea16a.jpg",
+    "static/media/restaurant.jpg": "/portfolio/static/media/restaurant.3c6e10848d95c3783169.jpg",
+    "static/media/memory.jpg": "/portfolio/static/media/memory.deca0c27e094dfe2bc2c.jpg",
+    "static/media/weather.jpg": "/portfolio/static/media/weather.e4b218ef356009ac613c.jpg",
+    "static/media/battleship.jpg": "/portfolio/static/media/battleship.e8ea62ee9788c33738c7.jpg",
+    "static/media/sketch.jpg": "/portfolio/static/media/sketch.4b3436f325900a70f59f.jpg",
+    "static/media/shop.jpg": "/portfolio/static/media/shop.db7b7cf2018a1a3ee3f0.jpg",
+    "static/media/library.jpg": "/portfolio/static/media/library.ac482b165d9beb5589b5.jpg",
+    "static/media/todo.jpg": "/portfolio/static/media/todo.15206eefc45f77364546.jpg",
+    "static/media/hs.jpg": "/portfolio/static/media/hs.4fd8579b540abf5b53ca.jpg",
+    "static/media/roshambo.jpg": "/portfolio/static/media/roshambo.9ef0b001c0911f78ee6e.jpg",
+    "static/media/tictactoe.jpg": "/portfolio/static/media/tictactoe.192013fc2725c3561887.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.219ce303.css.map": "/portfolio/static/css/main.219ce303.css.map",
+    "main.868941e9.js.map": "/portfolio/static/js/main.868941e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.219ce303.css",
+    "static/js/main.868941e9.js"
+  ]
+}
